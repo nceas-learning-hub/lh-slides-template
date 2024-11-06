@@ -1,0 +1,31 @@
+---
+title: "Example Lesson with Slides"
+format: html
+---
+
+## Learning Objectives {.unnumbered}
+
+-   Get oriented with the RStudio interface
+-   Run code and basic arithmetic in the Console
+-   Practice writing code in an R Script
+-   Be introduced to built-in R functions
+-   Use the Help pages to look up function documentation
+
+[Full Screen](example_slides.html)
+
+```{=html}
+<iframe class="slide-deck" src="example_slides.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
+
+::: callout-tip
+### Creating an R Script
+
+1.  From the "File" menu, select "New File"
+2.  Click "R Script" from the list of options
+
+RStudio should open your R Script automatically after creating it. Notice a new pane appears above the Console. This is called the **Source pane** and is where we write and edit R code and documents. This pane is only present if there are files open in the editor.
+
+3.  Save the R Script in your `script` folder, name the file `intro-to-programming.R`
+:::
